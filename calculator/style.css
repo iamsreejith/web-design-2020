@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+body{
+    height: 100%;
+}
+
+  .calculator {
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    box-shadow: 10px 10px 5px #c2c1c1;
+  }
+
+  .bgc {
+    height: 200px;
+    background-image: linear-gradient(to right,   rgba(145, 143, 143, 0),rgb(211, 208, 208));
+  }
+
+  button {
+    height: 60px;
+    font-size: 20px!important;
+  }
+
+  .equal-sign {
+    height: 98%;
+    
+    background-color:#2bbbad;
+  }
+
+  .calculator-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    /* box-shadow: 10px 10px 5px #aaaaaa; */
+  }
+  .btn{
+    box-shadow: 4px 4px 10px #cac8c8;
+  }
+  .text-id{
+      margin: 10px;
+      height: 55px;
+      border: solid 2px rgb(163, 162, 162);
+      border-radius: 10px!important;
+  }
+
+  .nav-color{
+      /* background-color: rgb(172, 49, 125); */
+      background-image: linear-gradient(to right,  rgb(173, 63, 131),rgb(146, 36, 104));
+  }
+
+  .normal-btn{
+      background-color: rgb(235, 235, 235);
+  }
+  .operator-btn{
+      background-color: teal;
+  }
+
+  footer{
+      color: white;
+      margin-top: 43%;
+      height: 50px;
+      padding: 11px ;
+      text-align: center;
+      background-image: linear-gradient(to right,  rgb(173, 63, 131),rgb(146, 36, 104));
+
+  }
